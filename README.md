@@ -28,10 +28,10 @@ Example of training options:
 
 ### Testing
 
-To compare models you acn run following script:
+To compare models you can run following script:
 
 ```
-run_training.py
+run_testing.py
 ```
 Example of testing options:
 ```
