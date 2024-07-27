@@ -1,0 +1,14 @@
+# general settings
+name: litedvdnet_16
+model_name: LiteDVDNet
+module: 'litedvdnet'
+model_params:
+  num_input_frames: 5
+  channels: [16, 32, 64]
+  inference_mode: Cached
+  interm_ch: 10
+  simple_cv: true
+manual_seed: 10
+use_cuda: true
+
+

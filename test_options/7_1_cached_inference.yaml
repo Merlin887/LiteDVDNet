@@ -1,0 +1,30 @@
+id: cached_inference_sigma30
+models_to_compare: './comparison/7_1_cached_inference'
+test_settings:
+  use_cuda: true
+  max_num_fr_per_seq: 30
+  save_results: true
+  save_noisy: false
+  suffix: ".png"
+  save_path: "./results"
+  gray: false
+  calculate_strred: true,
+  calculate_ssim: true
+  noise_sigma: [30]
+test_cases:
+- id: hypersmooth
+  test_data_path: "./datasets/Set8/hypersmooth"
+- id: motorbike
+  test_data_path: "./datasets/Set8/motorbike"
+- id: raftings
+  test_data_path: "./datasets/Set8/rafting"
+- id: snowboard
+  test_data_path: "./datasets/Set8/snowboard"
+- id: park_joy
+  test_data_path: "./datasets/Set8/park_joy"
+- id: sunflower
+  test_data_path: "./datasets/Set8/sunflower"
+- id: touchdown
+  test_data_path: "./datasets/Set8/touchdown"
+- id: tractor
+  test_data_path: "./datasets/Set8/tractor"

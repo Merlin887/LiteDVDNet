@@ -1,0 +1,16 @@
+# general settings
+name: baseline
+model_name: LiteDVDNet
+module: 'litedvdnet'
+model_params:
+  num_input_frames: 5
+  channels: [32, 64, 128]
+  inference_mode: Basic
+  interm_ch: 30
+  simple_cv: false
+manual_seed: 10
+use_cuda: true
+
+
+
+
